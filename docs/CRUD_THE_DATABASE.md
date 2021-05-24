@@ -152,7 +152,7 @@ await repository.update(1, { firstName: "Rizzrak" });
 
 ```typescript
 await repository.delete(1);
-await repository.delete([1, 2, 3]);
+await repository.delete([1, 2, 3]); 
 await repository.delete({ firstName: "Timber" });
 ```
 
